@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/opportunities.json"
+  [headers.values]
+    Cache-Control = "no-cache"
